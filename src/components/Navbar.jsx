@@ -4,6 +4,7 @@ import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import CartWidget from './Cartwidget';
 
 
+
 export default function MyNavbar()  {
   return (
     <header>

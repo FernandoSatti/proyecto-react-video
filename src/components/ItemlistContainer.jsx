@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from '../img/logo.png';
 export default function ItemListContainer({ greeting }) {
 return (
     <main>
@@ -25,7 +25,13 @@ return (
                 </video>
                 <div className="capa"></div>
             </div>
+            <div className='h2-div'>
+                <h2 className='h2-packs'>Elige cualquiera de nuestros packs</h2>
+                <img src={logo} alt="logo de pixeledit" className='logo' />
+            </div>
+            
             <div className="cards">
+                
                 <div className="card">
                     <div className="title-promo1">
                         <p className="heading">Edicion basica</p>
@@ -35,6 +41,14 @@ return (
                             <li>cortes y transiciones</li>
                             <li>edicion de audio</li>
                         </ul>
+                    </div>
+                    <div className='div-pack'>
+                        <button className='button-pack'>
+
+                            <a href="#">
+                            Comprar Pack  
+                            </a>
+                        </button>
                     </div>
                     <p>PixelEdit</p>
                 </div>
@@ -49,9 +63,14 @@ return (
                             <li>mejora de calidad grafica</li>
                         </ul>
                     </div>
-                    {/* <div className="container-button-promo">
-                    <button className="button-promo">Solicitar</button>
-                    </div> */}
+                    <div className='div-pack'>
+                        <button className='button-pack'>
+
+                            <a href="#">
+                            Comprar Pack  
+                            </a>
+                        </button>
+                    </div>
                     <p>PixelEdit</p>
                 </div>
                 <div className="card">
@@ -66,6 +85,14 @@ return (
                             <li>tips de aumento de audiencia</li>
                             <li>ideas de contenido</li>
                         </ul>
+                    </div>
+                    <div className='div-pack'>
+                        <button className='button-pack'>
+
+                            <a href="#">
+                            Comprar Pack  
+                            </a>
+                        </button>
                     </div>
                     <p>PixelEdit</p>
                 </div>
