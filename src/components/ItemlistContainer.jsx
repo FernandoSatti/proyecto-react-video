@@ -44,7 +44,6 @@ return (
                     </div>
                     <div className='div-pack'>
                         <button className='button-pack'>
-
                             <a href="#">
                             Comprar Pack  
                             </a>
