@@ -1,0 +1,84 @@
+[
+    {
+        "id":1 ,
+        "title": "Terror cinematografico" ,
+        "description": "edicion al estilo cine. con cortes y efectos especiales" ,
+        "button": "Solicitar Servicio",
+        "category": "humor y creatividad"
+    },
+    {
+        "id":2 ,
+        "title": "Terror narrativo" ,
+        "description": "Uso de imágenes y sonidos para crear un ambiente escalofriante." ,
+        "button": "Solicitar Servicio",
+        "category": "humor y creatividad"
+    },
+    {
+        "id":3 ,
+        "title": "Vlogs Personales" ,
+        "description": "Optimización de contenido de video diario o semanal para cautivar a tu audiencia." ,
+        "button": "Solicitar Servicio",
+        "category": "experiencia personal"
+    },
+    {
+        "id":4 ,
+        "title": "cursos de calidad" ,
+        "description": "Mejora y estructuración de videos educativos o no para destacar tu experiencia y conocimiento." ,
+        "button": "Solicitar Servicio",
+        "category": "experiencia personal"
+    },
+    {
+        "id":5 ,
+        "title": "Viajes Inolvidables" ,
+        "description": "resaltando los momentos más memorables de tus viajes." ,
+        "button": "Solicitar Servicio",
+        "category": "experiencia personal"
+    }, {
+        "id":6 ,
+        "title": "Reels para redes" ,
+        "description": "Edición de videos cortos llenos de humor para viralizar tu contenido" ,
+        "button": "Solicitar Servicio",
+        "category": "humor y creatividad"
+    },
+    {
+        "id":7 ,
+        "title": "Anuncios Publicitarios" ,
+        "description": "Produciendo contenido visualmente impactante para elevar tu marca." ,
+        "button": "Solicitar Servicio",
+        "category": "publicitario"
+    },
+    {
+        "id":8 ,
+        "title": "Videos de Fitness Motivadores" ,
+        "description": "Resaltando rutinas de ejercicios de manera motivadora y atractiva." ,
+        "button": "Solicitar Servicio",
+        "category": "experiencia personal"
+    }, {
+        "id":9 ,
+        "title": "Clips Impactantes para Twitch" ,
+        "description": "Destacando los momentos mas emocionantes para cautivar a tu audiencia en Twitch." ,
+        "button": "Solicitar Servicio",
+        "category": "transmisiones"
+    },
+    {
+        "id":10 ,
+        "title": "clips musicales" ,
+        "description": "edicion audiovisual que acompañen tu musica" ,
+        "button": "Solicitar Servicio",
+        "category": "humor y creatividad"
+    },
+    {
+        "id":11 ,
+        "title": "Gameplays" ,
+        "description": "resaltando momentos épicos y entretenidos en el mundo del gaming con creatividad " ,
+        "button": "Solicitar Servicio",
+        "category": "transmisiones"
+    },
+    {
+        "id":12 ,
+        "title": "video acompañado de memes" ,
+        "description": "una edicion de estilo acompañado de memes virales del momento." ,
+        "button": "Solicitar Servicio",
+        "category": "humor y creatividad"
+    }
+]

@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import Svg from '../img/video-cart.svg';
+import Png from '../../public/img/cart-white.png';
 export default function CartWidget() {
-  // Estado para la cantidad de elementos en el carrito
-  const [cantidadEnCarrito, setCantidadEnCarrito] = useState(1); 
+
+  const [cantidadEnCarrito, setCantidadEnCarrito] = useState(0); 
 
   return (
-    <button className='button-cart'>
-      <a href="#" className='a-video-cart'>
-        <img src={Svg} className='video-cart' alt="carrito de videos" />
-        {cantidadEnCarrito > 0 && (
+    <li className="nav-item cart-item">
+      <a href="#link" className="nav-link cart-link">
+        <img src={Png} className='cart-white' alt="carrito de PixelEdit" />
+        {cantidadEnCarrito >= 0 && (
           <span className='cart-notification'>{cantidadEnCarrito}</span>
         )}
       </a>
-    </button>
+    </li>
   );
 }
