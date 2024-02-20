@@ -9,27 +9,29 @@ export default function MyNavbar() {
     <header>
       <Navbar expand="lg" className="nav">
         <Container className="container-nav">
+          <Link to={"/"}>
           <Navbar.Brand href="#home" className="logo-name">
             <img src={logo} width={"50px"} alt="" />
             PixelEdit
           </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#home">
+                <Link to={"/packs"} className="nav-link" >
                   <button className="button-nav">Packs</button>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#link">
+                <Link to={"/servicios/"} className="nav-link" href="#link">
                   <button className="button-nav">Servicios</button>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#link">
+                <Link to={"/nosotros"} className="nav-link" >
                   <button className="button-nav">acerca de nosotros</button>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#link"></a>
@@ -45,25 +47,7 @@ export default function MyNavbar() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className="div-main">
-        <h1 className="h1-header">Contrata nuestro servicio como editores de video</h1>
-        <p>llevamos años de experiencia con diferentes categorías de videos</p>
-        <a href="#">
-          <button className="button-header">
-            <span>
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0h24v24H0z" fill="none"></path>
-              </svg>
-              CONOCE NUESTROS SERVICIOS
-            </span>
-          </button>
-        </a>
-      </div>
-      <div className="video-container">
-        <video autoPlay muted loop>
-          <source src="../liquid-divinum_1.webm" type="video/webm" />
-        </video>
-      </div>
+      
     </header>
   );
 }
