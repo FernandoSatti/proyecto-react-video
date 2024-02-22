@@ -14,6 +14,7 @@ import NotFound from "./components/NotFound.jsx";
 import Categories from "./components/categories.jsx";
 import Nosotros from "./components/Nosotros.jsx";
 import Packs from "./components/Packs.jsx";
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -21,8 +22,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
         <Route path="/category/:cid" element={<ItemListContainer />} />
-        <Route path="/" element={<ItemListContainer />} />
         <Route path="/servicios/" element={<ItemListContainer />} />
+        <Route path="/product/:pid" element={<ItemDetailsContainer />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="*" element={<NotFound />} />

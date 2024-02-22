@@ -3,6 +3,7 @@ import logo from "../../public/img/logo.png";
 export default function Packs() {
   return (
     <>
+    
     <div id="main-container"></div>
             <section className="section-packs">
                 <div className="h2-div">

@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { Link } from "react-router-dom";
 export default function Item  ({ product }) {
   return (
       <div className="card-container">
@@ -18,9 +19,11 @@ export default function Item  ({ product }) {
           </a>
           
         </div>
+        <Link to={`/product/${product.id}`}>
         <button className="button-service button-pack">
             {product.button}
           </button>
+        </Link>
       </div>
   );
 }

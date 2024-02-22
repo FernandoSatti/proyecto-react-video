@@ -1,7 +1,7 @@
 import logo from "../../public/img/logo.png";
 import { useState, useEffect } from "react";
 import ItemList from "./ItemList";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Categories from "./categories";
 import Packs from "./Packs";
 export default function ItemListContainer() {
@@ -27,16 +27,16 @@ export default function ItemListContainer() {
             <div className="div-main">
     <h1 className="h1-header">Contrata nuestro servicio como editores de video</h1>
     <p>llevamos años de experiencia con diferentes categorías de videos</p>
-    <a href="#">
+    <Link to={"/nosotros"}>
       <button className="button-header">
         <span>
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 0h24v24H0z" fill="none"></path>
           </svg>
-          CONOCE NUESTROS SERVICIOS
+          ACERCA DE NOSOTROS
         </span>
       </button>
-    </a>
+    </Link>
   </div>
   <div className="video-container">
     <video autoPlay muted loop>
