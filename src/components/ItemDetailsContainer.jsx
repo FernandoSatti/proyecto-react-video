@@ -9,18 +9,18 @@ export default function ItemDetailsContainer() {
         fetch('../data/services.json')
             .then(response => response.json())
             .then(productos => {
-                
+
                 const prod = productos.find(producto => producto.id == pid)
                 if (prod) {
                     SetItem(prod)
                 }
             })
-    },[pid])
+    }, [])
 
     return (
         <div >
-             <ItemDetail item={item} />
-             
+            <ItemDetail item={item} />
+
         </div>
     )
 }

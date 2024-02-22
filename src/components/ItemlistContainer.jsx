@@ -7,13 +7,14 @@ import Packs from "./Packs";
 export default function ItemListContainer() {
     const [products, setProducts] = useState([]);
     const { cid } = useParams();
-    console.log(cid);
+    ;
     useEffect(() => {
         fetch("../data/services.json")
             .then((response) => response.json())
             .then((prods) => {
                 if (cid) {
                     const productos = prods.filter((prod) => prod.category === cid);
+                    
                     setProducts(productos);
                 } else {
                     setProducts(prods);
@@ -23,6 +24,7 @@ export default function ItemListContainer() {
     }, [cid]);
 
     return (
+      
         <main>
             <div className="div-main">
     <h1 className="h1-header">Contrata nuestro servicio como editores de video</h1>
