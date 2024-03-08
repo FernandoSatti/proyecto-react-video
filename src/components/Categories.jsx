@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 export default function Categories() {
   return (
 <div className='nav-secondary'>
-
+<h2 className='h2-nav-secondary'>Selecciona nuestras categorias</h2>
     <ul className='ul-secondary'>
-    <h2>Selecciona nuestras categorias</h2>
+    
     <Link to ={"/category/humor y creatividad"}><li>Humor y Creatividad</li></Link>
     <Link to ={"/category/experiencia personal"}><li>Experiencia Personal</li></Link>
     <Link to ={"/category/publicitario"}><li>Publicitario</li></Link>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav,} from "react-bootstrap";
 import CartWidget from "./CartWidget";
-import logo from '../../public/img/logo.png';
 import { Link } from "react-router-dom";
 
 export default function MyNavbar() {
@@ -10,8 +9,8 @@ export default function MyNavbar() {
       <Navbar expand="lg" className="nav">
         <Container className="container-nav">
           <Link to={"/"}>
-          <Navbar.Brand href="#home" className="logo-name">
-            <img src={logo} width={"50px"} alt="" />
+          <Navbar.Brand  className="logo-name">
+            <img src="https://firebasestorage.googleapis.com/v0/b/react-proyect-video.appspot.com/o/logo.png?alt=media&token=b16eae37-4e81-4bbc-bfd4-9ecb3c5f2c71" width={"50px"} alt="" />
             PixelEdit
           </Navbar.Brand>
           </Link>
@@ -24,7 +23,7 @@ export default function MyNavbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to={"/servicios/"} className="nav-link" href="#link">
+                <Link to={"/servicios/"} className="nav-link" >
                   <button className="button-nav">Servicios</button>
                 </Link>
               </li>
@@ -33,9 +32,7 @@ export default function MyNavbar() {
                   <button className="button-nav">acerca de nosotros</button>
                 </Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#link"></a>
-              </li>
+              
               <CartWidget/>
               <li className="nav-item li-toggle">
                 <label className="switch">

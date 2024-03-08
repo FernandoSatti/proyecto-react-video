@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../public/img/logo.png";
+import { Link } from 'react-router-dom';
 export default function Packs() {
   return (
     <>
@@ -7,8 +7,8 @@ export default function Packs() {
     <div id="main-container"></div>
             <section className="section-packs">
                 <div className="h2-div">
-                    <h2 className="h2-packs">Elige cualquiera de nuestros packs</h2>
-                    <img src={logo} alt="logo de pixeledit" className="logo" />
+                    <h2 className="h2-packs">Consulta por nuestros packs</h2>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/react-proyect-video.appspot.com/o/logo.png?alt=media&token=b16eae37-4e81-4bbc-bfd4-9ecb3c5f2c71" alt="logo de pixeledit" className="logo" />
                 </div>
                 <div className="cards">
                     <div className="card">
@@ -23,7 +23,7 @@ export default function Packs() {
                         </div>
                         <div className="div-pack">
                             <button className="button-pack">
-                                <a href="#">Comprar Pack</a>
+                                <Link to={"/packs"}>Comprar Pack</Link>
                             </button>
                         </div>
                         <p>PixelEdit</p>
@@ -41,7 +41,7 @@ export default function Packs() {
                         </div>
                         <div className="div-pack">
                             <button className="button-pack">
-                                <a href="#">Comprar Pack</a>
+                                <Link to={"/packs"}>Comprar Pack</Link>
                             </button>
                         </div>
                         <p>PixelEdit</p>
@@ -61,7 +61,7 @@ export default function Packs() {
                         </div>
                         <div className="div-pack">
                             <button className="button-pack">
-                                <a href="#">Comprar Pack</a>
+                                <Link to={"/packs"}>Comprar Pack</Link>
                             </button>
                         </div>
                         <p>PixelEdit</p>

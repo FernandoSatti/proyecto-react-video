@@ -1,21 +1,21 @@
-import logo from "../../public/img/logo.png";
+
 import { useState, useEffect } from "react";
 import ItemList from "./ItemList";
 import { Link, useParams } from "react-router-dom";
 import Categories from "./categories";
 import Packs from "./Packs";
+import { getProducts } from "../firebase/firebase.js";
 export default function ItemListContainer() {
     const [products, setProducts] = useState([]);
     const { cid } = useParams();
     ;
     useEffect(() => {
-        fetch("../data/services.json")
-            .then((response) => response.json())
+       getProducts()
             .then((prods) => {
                 if (cid) {
-                    const productos = prods.filter((prod) => prod.category === cid);
+                    const productosFiltrados = prods.filter((prod) => prod.category === cid);
                     
-                    setProducts(productos);
+                    setProducts(productosFiltrados);
                 } else {
                     setProducts(prods);
                 }
@@ -42,13 +42,13 @@ export default function ItemListContainer() {
   </div>
   <div className="video-container">
     <video autoPlay muted loop>
-      <source src="../liquid-divinum_1.webm" type="video/webm" />
+      <source src="https://firebasestorage.googleapis.com/v0/b/react-proyect-video.appspot.com/o/liquid-divinum_1.webm?alt=media&token=8f193674-714f-4ec7-947d-b0e9452cc1e1" type="video/webm" />
     </video>
   </div>
             <Categories />
             
             <div className="grid-item">
-                <ItemList products={products} />
+                <ItemList products={products} plantilla="Item" />
             </div>
             <Packs />
         </main>

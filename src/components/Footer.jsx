@@ -1,23 +1,23 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Footer() {
     return (
-    <footer class="footer-border">
-        <div class="container">
+    <footer className="footer-border">
+        <div className="container">
             <p>&copy; 2024 PixelEdit. Todos los derechos reservados.</p>
-            <div class="footer-links">
-                <a href="#">Inicio</a>
-                <a href="#">Acerca de nosotros</a>
-                <a href="#">Servicios</a>
-                <a href="#">Contacto</a>
+            <div className="footer-links">
+                <Link to={"/"} >Inicio</Link>
+                <Link to={"/nosotros"} >Acerca de nosotros</Link>
+                <Link to={"/servicios"} >Servicios</Link>
+                <Link to={"/contacto"} >Contacto</Link>
             </div>
             <div>
                 <p>Contacto: fernandoist98@gmail.com</p>
             </div>
-            <div class="social-media">
-                <a href="#" target="_blank">Facebook</a>
-                <a href="#" target="_blank">Twitter</a>
-                <a href="#" target="_blank">Instagram</a>
+            <div className="social-media">
+                <Link to={"/"} target="_blank">Facebook</Link>
+                <Link to={"/"} target="_blank">Twitter</Link>
+                <Link to={"/"} target="_blank">Instagram</Link>
             </div>
         </div>
     </footer>

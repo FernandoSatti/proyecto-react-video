@@ -1,98 +1,122 @@
 [
     {
-        "id": 1,
+        
         "title": "Terror cinematográfico",
         "description": "Edición al estilo cine. Con cortes y efectos especiales.",
         "descriptionExtend": "Realizamos ediciones al estilo cinematográfico filmado con tu cámara en escenografías que serán transformadas en ediciones profesionales. Incluye cambios de ambiente, sonido y efectos para crear un contenido entretenido. Todos nuestros videos se guían por marketing digital para que tus films lleguen a más audiencia.",
         "button": "Solicitar Servicio",
-        "category": "humor y creatividad"
+        "cantidad": 20,
+        "category": "humor y creatividad",
+        "price": 5
     },
     {
-        "id": 2,
+        
         "title": "Terror narrativo",
         "description": "Uso de imágenes y sonidos para crear un ambiente escalofriante.",
         "descriptionExtend": "Ofrecemos una experiencia de terror narrativo que utiliza imágenes y sonidos para crear un ambiente escalofriante. Perfecto para aquellos que buscan contar historias de una manera única.",
         "button": "Solicitar Servicio",
-        "category": "humor y creatividad"
+        "cantidad": 20,
+        "category": "humor y creatividad",
+        "price": 5
+        
     },
     {
-        "id": 3,
+        
         "title": "Vlogs Personales",
         "description": "Optimización de contenido de video diario o semanal para cautivar a tu audiencia.",
         "descriptionExtend": "Destacamos tus experiencias personales en vlogs. Optimizamos el contenido de video diario o semanal para cautivar a tu audiencia y mantenerlos comprometidos con tus historias personales.",
         "button": "Solicitar Servicio",
-        "category": "experiencia personal"
+        "cantidad": 20,
+        "category": "experiencia personal",
+        "price": 5
     },
     {
-        "id": 4,
+    
         "title": "Cursos de calidad",
         "description": "Mejora y estructuración de videos educativos o no para destacar tu experiencia y conocimiento.",
         "descriptionExtend": "Realizamos la mejora y estructuración de videos educativos o no para destacar tu experiencia y conocimiento. Ofrecemos servicios de calidad para elevar la presentación de tu contenido educativo.",
         "button": "Solicitar Servicio",
-        "category": "experiencia personal"
+        "cantidad": 20,
+        "category": "experiencia personal",
+        "price": 5
     },
     {
-        "id": 5,
+        
         "title": "Viajes Inolvidables",
         "description": "Resaltando los momentos más memorables de tus viajes.",
         "descriptionExtend": "Destacamos los momentos más memorables de tus viajes. Transformamos tus videos para capturar la esencia única de cada experiencia de viaje, creando recuerdos inolvidables.",
         "button": "Solicitar Servicio",
-        "category": "experiencia personal"
+        "cantidad": 20,
+        "category": "experiencia personal",
+        "price": 5
     },
     {
-        "id": 6,
+        
         "title": "Reels para redes",
         "description": "Edición de videos cortos llenos de humor para viralizar tu contenido.",
         "descriptionExtend": "Realizamos la edición de videos cortos llenos de humor para viralizar tu contenido en redes sociales. Creamos reels atractivos que destacarán tu marca y atraerán a una audiencia más amplia.",
         "button": "Solicitar Servicio",
-        "category": "humor y creatividad"
+        "cantidad": 20,
+        "category": "humor y creatividad",
+        "price": 5
     },
     {
-        "id": 7,
+        
         "title": "Anuncios Publicitarios",
         "description": "Produciendo contenido visualmente impactante para elevar tu marca.",
         "descriptionExtend": "Realizamos la producción de contenido visualmente impactante para elevar tu marca. Creamos anuncios publicitarios efectivos que capturan la atención de tu audiencia y refuerzan tu presencia en el mercado.",
         "button": "Solicitar Servicio",
-        "category": "publicitario"
+        "cantidad": 20,
+        "category": "publicitario",
+        "price": 5
     },
     {
-        "id": 8,
+        
         "title": "Videos de Fitness Motivadores",
         "description": "Resaltando rutinas de ejercicios de manera motivadora y atractiva.",
         "descriptionExtend": "Realizamos la edición para resaltar rutinas de ejercicios de manera motivadora y atractiva. Creamos videos de fitness que inspiran y motivan, destacando tus rutinas de ejercicios de la manera más atractiva posible.",
         "button": "Solicitar Servicio",
-        "category": "experiencia personal"
+        "cantidad": 20,
+        "category": "experiencia personal",
+        "price": 5
     },
     {
-        "id": 9,
+        
         "title": "Clips Impactantes para Twitch",
         "description": "Destacando los momentos más emocionantes para cautivar a tu audiencia en Twitch.",
         "descriptionExtend": "Realizamos la creación de clips impactantes para Twitch. Destacamos los momentos más emocionantes de tus transmisiones para cautivar a tu audiencia y mejorar la visibilidad de tu canal.",
         "button": "Solicitar Servicio",
-        "category": "transmisiones"
+        "cantidad": 20,
+        "category": "transmisiones",
+        "price": 5
     },
     {
-        "id": 10,
+        
         "title": "Clips Musicales",
         "description": "Edición audiovisual que acompaña tu música.",
         "descriptionExtend": "Realizamos la edición audiovisual que acompaña tu música. Creamos clips musicales que realzan la experiencia auditiva y visual de tu música, capturando la esencia única de tus creaciones.",
         "button": "Solicitar Servicio",
+        "cantidad": 20,
         "category": "humor y creatividad"
     },
     {
-        "id": 11,
+        
         "title": "Gameplays",
         "description": "Resaltando momentos épicos y entretenidos en el mundo del gaming con creatividad.",
         "descriptionExtend": "Realizamos la edición de gameplays para resaltar momentos épicos y entretenidos en el mundo del gaming. Utilizamos creatividad para destacar los aspectos más emocionantes de tus sesiones de juego.",
         "button": "Solicitar Servicio",
-        "category": "transmisiones"
+        "cantidad": 20,
+        "category": "transmisiones",
+        "price": 5
     },
     {
-        "id": 12,
+        
         "title": "Video Acompañado de Memes",
         "description": "Una edición de estilo acompañado de memes virales del momento.",
         "descriptionExtend": "Realizamos una edición de estilo acompañado de memes virales del momento. Creamos videos que combinan contenido humorístico con los memes más populares, ofreciendo entretenimiento único y compartible.",
         "button": "Solicitar Servicio",
-        "category": "humor y creatividad"
+        "cantidad": 20,
+        "category": "humor y creatividad",
+        "price": 5
     }
 ]

@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 export default function Item  ({ product }) {
   return (
       <div className="card-container">
-        <div class="card-container-product">
-          <a href={product.url} target="_blank">
-            <div class="card-product">
-              <div class="front-content-product">
+        <div className="card-container-product">
+          <Link to={product.url} target="_blank">
+            <div className="card-product">
+              <div className="front-content-product">
                 <p>{product.title}</p>
               </div>
-              <div class="content-product">
-                <p class="heading-product">{product.title}</p>
+              <div className="content-product">
+                <p className="heading-product">{product.title}</p>
                 <p>{product.description}</p>
               </div>
             </div>
-          </a>
+          </Link>
           
         </div>
         <Link to={`/product/${product.id}`}>
