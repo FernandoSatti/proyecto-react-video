@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import { useCarritoContext } from '../context/CartContext';
 
-export default function CartWidget() {
+ function CartWidget() {
 const {getItemQuantity} = useCarritoContext()
 
 
@@ -14,4 +14,6 @@ const {getItemQuantity} = useCarritoContext()
       </Link>
     </li>
   );
+  
 }
+export default CartWidget;
