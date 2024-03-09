@@ -1,9 +1,9 @@
 import React from "react";
 import { Navbar, Container, Nav,} from "react-bootstrap";
-import CartWidget from "./CartWidget"
+import  CartWidget  from "./CartWidget"
 import { Link } from "react-router-dom";
 
-export default function MyNavbar() {
+export default function Navbar() {
   return (
     <header>
       <Navbar expand="lg" className="nav">
