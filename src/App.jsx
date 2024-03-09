@@ -1,7 +1,7 @@
 import React from "react";
 import 'react-toastify/dist/ReactToastify.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "./styles/app.css";
+import "./styles/App.css";
 import "./styles/index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
