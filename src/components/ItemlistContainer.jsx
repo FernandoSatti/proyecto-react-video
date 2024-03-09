@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import ItemList from "./ItemList";
 import { Link, useParams } from "react-router-dom";
-import Categories from "./categories";
+import Categories from "./Categories";
 import Packs from "./Packs";
 import { getProducts } from "../firebase/firebase.js";
 export default function ItemListContainer() {
