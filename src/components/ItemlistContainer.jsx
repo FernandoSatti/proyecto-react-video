@@ -1,9 +1,9 @@
 
 import { useState, useEffect } from "react";
-import {ItemList} from "./ItemList";
+import {ItemList} from "./ItemList.jsx";
 import { Link, useParams } from "react-router-dom";
-import {Categories} from "./Categories";
-import {Packs} from "./Packs";
+import {Categories} from "./Categories.jsx";
+import {Packs} from "./Packs.jsx";
 import { getProducts } from "../firebase/firebase.js";
 export const ItemListContainer = () => {
     const [products, setProducts] = useState([]);

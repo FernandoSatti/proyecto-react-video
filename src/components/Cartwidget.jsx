@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { useCarritoContext } from '../context/CartContext';
+import { useCarritoContext } from '../context/CartContext.jsx';
 
 export const CartWidget =() => {
 const {getItemQuantity} = useCarritoContext()
