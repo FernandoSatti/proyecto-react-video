@@ -1,21 +1,21 @@
 import React from "react";
-import { Navbar, Container, Nav,} from "react-bootstrap";
+import {  Navbar as BootstrapNavbar,Container, Nav,} from "react-bootstrap";
 import { CartWidget } from "./CartWidget"
 import { Link } from "react-router-dom";
 
-export default function MyNavbar() {
+export default function Navbar() {
   return (
     <header>
-      <Navbar expand="lg" className="nav">
+      <BootstrapNavbar expand="lg" className="nav">
         <Container className="container-nav">
           <Link to={"/"}>
-          <Navbar.Brand  className="logo-name">
+          <BootstrapNavbar.Brand  className="logo-name">
             <img src="https://firebasestorage.googleapis.com/v0/b/react-proyect-video.appspot.com/o/logo.png?alt=media&token=b16eae37-4e81-4bbc-bfd4-9ecb3c5f2c71" width={"50px"} alt="" />
             PixelEdit
-          </Navbar.Brand>
+          </BootstrapNavbar.Brand>
           </Link>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
+          <BootstrapNavbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <li className="nav-item">
                 <Link to={"/packs"} className="nav-link" >
@@ -41,9 +41,9 @@ export default function MyNavbar() {
                 </label>
               </li>
             </Nav>
-          </Navbar.Collapse>
+          </BootstrapNavbar.Collapse>
         </Container>
-      </Navbar>
+      </BootstrapNavbar>
       
     </header>
   );
