@@ -1,8 +1,8 @@
 import React from "react";
-import Item from "./Item";
-import ItemCart from "./ItemCart";
+import {Item} from "./Item";
+import {ItemCart} from "./ItemCart";
 
-export default function ItemList({ products, plantilla }) {
+export const ItemList = ({ products, plantilla }) => {
   return (
     <>
       { plantilla === "Item"

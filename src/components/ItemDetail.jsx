@@ -2,7 +2,7 @@ import React from 'react'
 import { useCounter } from '../hooks/useCounter.js';
 import { useCarritoContext } from '../context/CartContext.jsx';
 import { toast } from "react-toastify";
-export default function ItemDetail({ item }) {
+export const ItemDetail = ({ item }) => {
   const { addItem } = useCarritoContext()
  const{count,increment,decrement,reset} = useCounter(1,20,1)
  const handleAddToCart = ()=>{

@@ -3,7 +3,7 @@ import {  Navbar as BootstrapNavbar,Container, Nav,} from "react-bootstrap";
 import { CartWidget } from "./CartWidget"
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+export const Navbar = () => {
   return (
     <header>
       <BootstrapNavbar expand="lg" className="nav">

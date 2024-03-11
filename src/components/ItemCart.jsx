@@ -2,7 +2,7 @@ import React from "react";
 import { useCarritoContext } from "../context/CartContext";
 import { useCounter } from "../hooks/useCounter.js";
 import { RiDeleteBin6Line } from "react-icons/ri";
-export default function ItemCart({ product }) {
+export const ItemCart = ({ product }) => {
   const { removeItem, updateItem } = useCarritoContext();
   const { count, increment, decrement } = useCounter(product.quantity, product.cantidad, 1);
   return (

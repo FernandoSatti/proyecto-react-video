@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-export default function Categories() {
+export const  Categories = () => {
   return (
 <div className='nav-secondary'>
 <h2 className='h2-nav-secondary'>Selecciona nuestras categorias</h2>

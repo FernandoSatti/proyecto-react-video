@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-export default function Footer() {
+export const Footer = () => {
     return (
     <footer className="footer-border">
         <div className="container">

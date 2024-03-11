@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-export default function Nosotros() {
+export const Nosotros = () => {
   return (
     <>
       <div className="video-nosotros">

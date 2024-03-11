@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-export default function Item  ({ product }) {
+export const Item =  ({ product }) => {
   return (
       <div className="card-container">
         <div className="card-container-product">

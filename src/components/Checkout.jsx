@@ -6,7 +6,7 @@ import { Link,useNavigate } from "react-router-dom";
 import { createOrdenCompra, getProduct, updateProduct } from "../firebase/firebase.js"
 import { toast } from "react-toastify";
 
-export default function Checkout() {
+export const Checkout = () => {
 
   const formRef = useRef()
   const navigate = useNavigate()

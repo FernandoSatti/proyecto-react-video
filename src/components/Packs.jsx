@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-export default function Packs() {
+export const  Packs = () => {
   return (
     <>
     
