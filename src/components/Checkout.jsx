@@ -5,22 +5,19 @@ import {useCarritoContext} from "../context/CartContext.jsx";
 import { Link,useNavigate } from "react-router-dom";
 import { createOrdenCompra, getProduct, updateProduct } from "../firebase/firebase.js"
 import { toast } from "react-toastify";
-// import ItemDetail from './ItemDetail';
+
 export default function Checkout() {
 
   const formRef = useRef()
   const navigate = useNavigate()
   const {carrito,totalPrice,emptyCart} = useCarritoContext()
-  // const handleAddToCart = () =>{
-  //   e.preventDefault()
-  //   console.log("enviaste los datos")
-  // }
+ 
   const handleSubmit = async (e) => {
     e.preventDefault();
     const datForm = new FormData(formRef.current);
     const cliente = Object.fromEntries(datForm);
 
-    // Modificar stock
+
     const aux = [...carrito];
 
     for (const prodCarrito of aux) {
@@ -48,7 +45,7 @@ export default function Checkout() {
         }
     }
 
-    // Generar la orden de Compra
+
     const aux2 = aux.map(prod => ({ id: prod.id, quantity: prod.quantity, price: prod.price }));
 
     try {
@@ -71,7 +68,7 @@ export default function Checkout() {
     } catch (error) {
         toast.error(`Error al generar orden de compra: ${error}`, {
             position: "top-right",
-            autoClose: 5000,
+            autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,

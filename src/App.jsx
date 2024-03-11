@@ -4,7 +4,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./styles/App.css";
 import "./styles/index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/MyNavbar.jsx";
+import MyNavbar from "./components/MyNavbar.jsx";
 import ItemListContainer from "./components/ItemlistContainer.jsx";
 import Footer from "./components/Footer.jsx";
 import Cart from "./components/Cart.jsx";
@@ -20,7 +20,7 @@ const App = () => {
   return (
   <BrowserRouter>
     <CarritoProvider>
-    <Navbar />
+    <MyNavbar />
     <ToastContainer/>
       <Routes>
         <Route path="/" element={<ItemListContainer />} />

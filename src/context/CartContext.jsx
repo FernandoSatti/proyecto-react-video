@@ -29,10 +29,7 @@ setCarrito(aux)
 }
 
 const removeItem = (id) =>{
-// const aux = [...carrito]
-// const indice = aux.findIndex(prod => prod.id === id)
-// if(indice != 1){
-//     setCarrito(aux.splice(indice,1))
+
 setCarrito(carrito.filter(prod=> prod.id !==id))
 }
 
